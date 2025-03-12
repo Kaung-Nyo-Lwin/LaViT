@@ -101,10 +101,19 @@ from einops.layers.torch import Rearrange
 
 ### Learning Curves
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="figures/ViT_learning_curve_cfar.png" alt="ViT CIFAR Learning Curve" width="32%">
-  <img src="figures/LaViT_learning_curve_cfar.png" alt="LaViT CIFAR Learning Curve" width="32%">
-  <img src="figures/LaViT_learning_curve_mnist.png" alt="LaViT MNIST Learning Curve" width="32%">
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="width: 32%; text-align: center;">
+    <img src="figures/ViT_learning_curve_cfar.png" alt="ViT CIFAR Learning Curve" width="100%">
+    <p><em>ViT CIFAR Learning Curve</em></p>
+  </div>
+  <div style="width: 32%; text-align: center;">
+    <img src="figures/LaViT_learning_curve_cfar.png" alt="LaViT CIFAR Learning Curve" width="100%">
+    <p><em>LaViT CIFAR Learning Curve</em></p>
+  </div>
+  <div style="width: 32%; text-align: center;">
+    <img src="figures/LaViT_learning_curve_mnist.png" alt="LaViT MNIST Learning Curve" width="100%">
+    <p><em>LaViT MNIST Learning Curve</em></p>
+  </div>
 </div>
 
 ### Gradient Boosting Classifier Performance
